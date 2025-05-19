@@ -7,6 +7,5 @@ A visually engaging, drag-and-drop itinerary planner for organizing multi-day tr
 - Day-by-day trip planning
 - Drag-and-drop reordering
 - Add, edit, and remove days and activities
-- Share and export your itinerary
 
 ---
