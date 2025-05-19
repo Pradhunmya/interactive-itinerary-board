@@ -31,15 +31,6 @@ const Footer: React.FC = () => (
             <li><a href="#">Help Center</a></li>
           </ul>
         </div>
-        <div>
-          <h3 className="footer-section-title">Contact</h3>
-          <ul className="footer-list">
-            <li><a href="#">hello@planpalboard.demo</a></li>
-            <li><a href="#">+1 (555) 123-4567</a></li>
-            <li><a href="#">123 PlanPal St, Suite 100</a></li>
-            <li><a href="#">San Francisco, CA 94103</a></li>
-          </ul>
-        </div>
       </div>
       <div className="footer-bottom">
         <p>© 2025 PlanPal Board. All rights reserved.</p>

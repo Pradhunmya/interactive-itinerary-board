@@ -705,3 +705,93 @@ h1 {
 .icon-btn:hover svg {
   stroke: #fff;
 }
+
+.activity-modal-content {
+  max-width: 540px;
+  min-width: 320px;
+  background: #f9fafb;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(20,184,166,0.13);
+  padding: 2.2rem 2rem 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.activity-modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #14b8a6;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.activity-modal-fields {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.activity-modal-image-preview {
+  flex-shrink: 0;
+}
+
+.activity-modal-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #14b8a6;
+  background: #e0fdfa;
+  box-shadow: 0 2px 8px rgba(20,184,166,0.10);
+}
+
+.activity-modal-inputs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.activity-modal-inputs label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.98rem;
+  color: #134e4a;
+  font-weight: 500;
+  gap: 0.2rem;
+}
+
+.activity-modal-inputs input,
+.activity-modal-inputs textarea {
+  border: 1.5px solid #d1fae5;
+  border-radius: 7px;
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  background: #fff;
+  color: #222;
+  transition: border 0.2s;
+  margin-top: 2px;
+}
+
+.activity-modal-inputs input:focus,
+.activity-modal-inputs textarea:focus {
+  border: 1.5px solid #14b8a6;
+  outline: none;
+}
+
+.activity-modal-optional {
+  color: #5eead4;
+  font-size: 0.92em;
+  font-weight: 400;
+  margin-left: 0.3em;
+}
+
+.activity-modal-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1.2rem;
+}

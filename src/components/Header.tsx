@@ -11,7 +11,7 @@ const Header: React.FC = () => (
         <nav className="nav-links">
             <a href="#features">Features</a>
             <a href="#how-it-works">How it works</a>
-            <a href="#demo">Demo</a>
+            <a href="#itinerary">Itinerary</a>
         </nav>
     </header>
 );
