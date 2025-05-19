@@ -21,10 +21,6 @@ const AddDayPlan: React.FC<AddDayPlanProps> = ({ onAdd }) => {
 
     return (
         <>
-            {/* <div className="banner">
-                <span role="img" aria-label="info">💡</span>
-                Add your custom day plans to personalize your itinerary!
-            </div> */}
             <button className="custom-button" onClick={() => setShow(true)}>+ Add Day</button>
             {show && (
                 <div className="modal">

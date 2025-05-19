@@ -12,9 +12,6 @@ const Banner: React.FC = () => (
                 Organize your days, share with friends, and make your travel planning effortless.
             </p>
         </div>
-        {/* <a href="#features" className="main-banner-arrow" aria-label="Scroll down">
-            <span>▼</span>
-        </a> */}
     </div>
 );
 

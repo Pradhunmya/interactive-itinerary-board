@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ItineraryItem } from './ItineraryCard';
 
-const DEFAULT_IMAGE =
-  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=500';
-
 interface ActivityModalProps {
   open: boolean;
   onClose: () => void;

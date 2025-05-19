@@ -11,7 +11,7 @@ export interface ItineraryItem {
 
 interface ItineraryCardProps {
   item: ItineraryItem;
-  onEdit?: () => void; // Only triggers modal, not inline edit
+  onEdit?: () => void; // Only triggers modal
   onDelete?: () => void;
 }
 
