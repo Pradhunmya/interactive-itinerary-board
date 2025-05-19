@@ -102,6 +102,132 @@ h1 {
     box-shadow: 0 -2px 12px 0 rgba(20,184,166,0.06);
 }
 
+.custom-footer {
+    background: #134e4a;
+    color: #fff;
+    padding: 3rem 0 2rem 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.footer-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: #14b8a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+}
+
+.footer-logo-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.footer-brand-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-brand-desc {
+    color: #5eead4;
+    font-size: 0.97rem;
+    margin: 0;
+}
+
+.footer-section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #5eead4;
+    font-size: 0.97rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.footer-list a {
+    color: #5eead4;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-list a:hover {
+    color: #14b8a6;
+}
+
+.footer-bottom {
+    border-top: 1px solid #0f766e;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+@media (min-width: 768px) {
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer-bottom p {
+    color: #5eead4;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-bottom-links a {
+    color: #5eead4;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.footer-bottom-links a:hover {
+    color: #14b8a6;
+}
+
 .app-container {
     min-height: 100vh;
     display: flex;
@@ -114,6 +240,122 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 30px 0;
+}
+
+/* Modern Itinerary Board Styles */
+.itinerary-board-modern {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 6px 32px rgba(20,184,166,0.08);
+}
+
+.itinerary-board-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.itinerary-board-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #14b8a6;
+  margin-bottom: 1rem;
+}
+
+.itinerary-board-days {
+  display: flex;
+  gap: 1rem;
+}
+
+.day-tab {
+  background: #e0fdfa;
+  color: #14b8a6;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.day-tab.active,
+.day-tab:hover {
+  background: #14b8a6;
+  color: #fff;
+}
+
+.itinerary-board-list {
+  margin-bottom: 2rem;
+}
+
+.empty-day {
+  text-align: center;
+  padding: 2rem 0;
+  color: #888;
+}
+
+.itinerary-board-footer {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+}
+
+.itinerary-card {
+  display: flex;
+  align-items: flex-start;
+  background: #f3f4f6;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(20,184,166,0.08);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.itinerary-card-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 16px 0 0 16px;
+}
+
+.itinerary-card-content {
+  padding: 1rem 1.5rem;
+  flex: 1;
+}
+
+.itinerary-card-time {
+  font-size: 0.95rem;
+  color: #14b8a6;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.itinerary-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #134e4a;
+}
+
+.itinerary-card-desc {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+
+.itinerary-card-location {
+  font-size: 0.95rem;
+  color: #0f766e;
+}
+
+.dragging {
+  opacity: 0.7;
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(20,184,166,0.18);
 }
 
 .day-plan {
@@ -355,6 +597,79 @@ h1 {
 }
 
 .howitworks-step-desc {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.features-section {
+    padding: 3.5rem 0 2.5rem 0;
+    background: #e0fdfa;
+}
+
+.features-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.features-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.features-title-accent {
+    color: #14b8a6;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+@media (min-width: 768px) {
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.feature-card {
+    background: #fff;
+    padding: 2rem 1.5rem;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(20,184,166,0.08);
+    border: 1px solid #d1fae5;
+    transition: box-shadow 0.2s;
+    text-align: center;
+}
+.feature-card:hover {
+    box-shadow: 0 6px 24px rgba(20,184,166,0.15);
+}
+
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: #e0fdfa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem auto;
+}
+
+.feature-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #134e4a;
+}
+
+.feature-card-desc {
     color: #555;
     font-size: 1rem;
     margin-bottom: 0;

@@ -10,16 +10,6 @@ const HowItWorks: React.FC = () => (
         <div className="howitworks-step">
           <div className="howitworks-step-circle">1</div>
           <div>
-            <h3 className="howitworks-step-title">Create Your Trip</h3>
-            <p className="howitworks-step-desc">
-              Start by creating a new trip and entering your travel dates.
-              Our system will automatically set up day-by-day planning sheets.
-            </p>
-          </div>
-        </div>
-        <div className="howitworks-step">
-          <div className="howitworks-step-circle">2</div>
-          <div>
             <h3 className="howitworks-step-title">Add Activities</h3>
             <p className="howitworks-step-desc">
               Search and add activities, restaurants, attractions, and accommodations
@@ -28,7 +18,7 @@ const HowItWorks: React.FC = () => (
           </div>
         </div>
         <div className="howitworks-step">
-          <div className="howitworks-step-circle">3</div>
+          <div className="howitworks-step-circle">2</div>
           <div>
             <h3 className="howitworks-step-title">Organize with Drag &amp; Drop</h3>
             <p className="howitworks-step-desc">
@@ -38,12 +28,11 @@ const HowItWorks: React.FC = () => (
           </div>
         </div>
         <div className="howitworks-step">
-          <div className="howitworks-step-circle">4</div>
+          <div className="howitworks-step-circle">3</div>
           <div>
             <h3 className="howitworks-step-title">Share Your Itinerary</h3>
             <p className="howitworks-step-desc">
-              Share your completed itinerary with travel companions via email or link.
-              Export as PDF or sync with your calendar for easy access during your trip.
+              Share your completed itinerary with travel companions for easy access during your trip.
             </p>
           </div>
         </div>
